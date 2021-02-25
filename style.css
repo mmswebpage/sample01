@@ -115,6 +115,8 @@ body{
     color: #000000;
 	 line-height: 1.8;
   letter-spacing: 0.03em;
+	-webkit-appearance: none;
+-webkit-text-size-adjust: 100%;
 }
 
 /* TEXT */
