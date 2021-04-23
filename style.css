@@ -1,0 +1,351 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+img{ 
+  border: none;
+  display: block;
+  margin: 0 auto;
+}
+
+body{
+  width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	min-width: 1000px;
+	background-color: #f3f5f7;
+	background-position: center top;
+	background-repeat:repeat-y;
+	background-attachment: fixed;
+ text-align:center;
+  font-size: 22px;
+  font-family: Arial,Helvetica,"游ゴシック体","Yu Gothic",YuGothic,Meiryo,Osaka,"Hiragino Kaku Gothic Pro","MS PGothic",sans-serif;
+    color: #000000;
+	 line-height: 1.8;
+  letter-spacing: 0.03em;
+  background-color: white;
+  box-sizing: border-box;
+} 
+
+
+/* main */
+.main{
+  background-image: url(img/main-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 5% 0 5%;
+}
+
+.country-wrap{
+  display: flex;
+  margin: 5% 0;
+}
+
+.main-arrow{
+  margin-top: 40%;
+  margin-bottom: 5%;
+}
+
+.main-bottom{
+  width: 100%;
+  background-color: black;
+  text-align: left;
+}
+
+.main-img-left{
+  text-align: left;
+  display: inline;
+  padding: 5% 5%;
+}
+
+/* think */
+.think{
+  background-image: url(img/think-bg.png);
+  background-color: black;
+}
+
+.think-txt{
+  padding: 5% 0;
+}
+
+.think-txt-bottom{
+  padding-bottom: 10%;
+}
+
+/* world */
+.world{
+  background-image: url(img/world-bg.png);
+  background-size: cover;
+  background-position: center;
+  padding: 5% 0 5%;
+}
+
+.world-txt{
+  padding: 5% 0;
+}
+
+/* covid */
+.covid{
+  background-image: url(img/covid-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 10% 0 10%;
+}
+
+.covid-wrap{
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 3% 0;
+  margin: 0 5%;
+}
+
+.covid-txt{
+  padding: 5% 0;
+}
+
+/* offer */
+.offer{
+  position: relative;
+  padding-bottom: 25%;
+}
+
+.covid-txt01{
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 39%;
+}
+
+/* present */
+.present{
+  background-image: url(img/present-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 850px;
+  position: relative;
+}
+
+.present01{
+  position: absolute;
+  top: -20%;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+/* tokuten */
+.tokuten{
+  background-image: url(img/bg-w.jpg);
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 10%;
+}
+
+.tokuten-wrap{
+  display: flex;
+  position: absolute;
+  top: 10%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 90%;
+}
+
+.donation-list{
+  background-color: white;
+  margin: 0 auto;
+  width: 90%;
+  box-sizing: border-box;
+  padding: 5%;
+  text-align: left;
+}
+
+
+.donation-txt{
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.donation-link{
+  color:rgb(194, 194, 194);
+  font-size: 24px;
+}
+
+.donation-link:hover{
+  color: black;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 1000px) {
+ 
+/* main */
+.main{
+  background-image: url(img/main-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 5% 0 5%;
+}
+
+.main-pc{
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.country-wrap{
+  display: flex;
+  width: 1000px;
+  margin: 40px auto;
+}
+
+.main-arrow{
+  margin-top: 600px;
+  margin-bottom: 70px;
+}
+
+.main-bottom{
+  width: 100%;
+  background-color: black;
+  text-align: left;
+}
+
+.main-img-left{
+  text-align: left;
+  display: inline;
+  padding: 50px;
+}
+
+/* think */
+.think{
+  background-image: url(img/think-bg.png);
+  background-size: cover;
+  background-position: center;
+  background-color: black;
+}
+
+.think-txt{
+  padding: 50px 0;
+}
+
+.think-txt-bottom{
+  padding-bottom: 100px;
+}
+
+/* world */
+.world{
+  background-image: url(img/world-bg.png);
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0 150px;
+}
+
+.world-txt{
+  padding: 50px 0;
+}
+
+/* covid */
+.covid{
+  background-image: url(img/covid-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0 150px;
+}
+
+.covid-wrap{
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 1000px;
+  padding: 70px 0;
+  margin: 0 auto;
+}
+
+.covid-txt{
+  padding: 50px 0;
+}
+
+/* offer */
+.offer{
+  position: relative;
+  padding-bottom: 250px;
+}
+
+.covid-txt01{
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 1650px;
+}
+
+/* present */
+.present{
+  background-image: url(img/present-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 850px;
+  position: relative;
+}
+
+.present01{
+  position: absolute;
+  top: -200px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+/* tokuten */
+.tokuten{
+  background-image: url(img/bg-w.jpg);
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 60px;
+}
+
+.tokuten-wrap{
+  display: flex;
+  position: absolute;
+  width: 900px;
+  top: 500px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.donation-list{
+  background-color: white;
+  margin: 0 auto;
+  width: 1000px;
+  box-sizing: border-box;
+  padding: 50px;
+  text-align: left;
+}
+
+
+.donation-txt{
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.donation-link{
+  color:rgb(194, 194, 194);
+  font-size: 24px;
+}
+
+.donation-link:hover{
+  color: black;
+}
+
+
+}
