@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- <meta name="viewport" content="width=device-width"> -->
+    <link rel="stylesheet" href="style.css" media="screen" />
+    <link
+      href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+      rel="stylesheet"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link href="css/animate.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- <script src="js/scrollreveal.min.js"></script> -->
+    <title></title>
+    <script>
+      setInterval("goFlash()", 3500);
+      function goFlash() {
+        $(".animeBtn").addClass("animated infinite tada");
+        setTimeout("removeFlash()", 2000);
+      }
+      function removeFlash() {
+        $(".animeBtn").removeClass("animated infinite  tada");
+      }
+      $(window).on("scroll load", function () {
+        $(".animated").each(function () {
+          var $scrollBottom = $(window).scrollTop() + $(window).height();
+          var $torigger = $(this).offset().top;
+          if ($scrollBottom > $torigger) $(this).addClass("swing");
+        });
+      });
+    </script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <!-- <div class="animeBtn btnLine center btn-1 btn"><a class="everline_link" href="https://line.me/ti/p/%40552dpadw"
+  target="_blank"><img src="img/btn-1.png" oncontextmenu="return false;"></a></div> -->
+  </head>
+
+  <body>
+    <!-- oncontextmenu="return false;" -->
+    <!-- <body> -->
+    <main>
+      <section class="lp2-top" oncontextmenu="return false;">
+        <img
+          src="img/ticket.png"
+          alt=""
+          class="lp2-top-ticket scroll1"
+          onselectstart="return false;"
+          onmousedown="return false;"
+        />
+        <img
+          src="img/congrats.png"
+          alt=""
+          class="lp2-congrats-txt scroll1"
+          onselectstart="return false;"
+          onmousedown="return false;"
+        />
+        <img
+          src="img/top-txt1.png"
+          alt=""
+          class="lp2-top-txt1"
+          onselectstart="return false;"
+          onmousedown="return false;"
+        />
+        <img
+          src="img/top-txt2.png"
+          alt=""
+          class="lp2-top-txt2"
+          onselectstart="return false;"
+          onmousedown="return false;"
+        />
+      </section>
+
+      <section
+        class="lp2-section1"
+        oncontextmenu="return false;"
+        onselectstart="return false;"
+        onmousedown="return false;"
+      >
+        <img src="img/section1-txt1.png" alt="" class="lp2-section1-txt1" />
+        <img
+          src="img/section1-explanation.jpg"
+          alt=""
+          class="lp2-section1-ex scroll3"
+        />
+        <img
+          src="img/section1-txt2.png"
+          alt=""
+          class="lp2-section1-txt2 scroll1"
+        />
+        <img
+          src="img/section1-txt3.png"
+          alt=""
+          class="lp2-section1-txt3 scroll3"
+        />
+        <div class="section1-txt4-wrapper">
+          <img src="img/section1-phone.png" alt="" class="section1-phone" />
+          <img
+            src="img/section1-txt4.png"
+            alt=""
+            class="section1-txt4 scroll3"
+          />
+        </div>
+      </section>
+
+      <section
+        class="lp2-section2"
+        oncontextmenu="return false;"
+        onselectstart="return false;"
+        onmousedown="return false;"
+      >
+        <div class="lp2-section2-part1">
+          <img
+            src="img/section2-txt1.png"
+            alt=""
+            class="lp2-section2-txt1 scroll1"
+          />
+          <img
+            src="img/section2-txt2.png"
+            alt=""
+            class="lp2-section2-txt2 scroll3"
+          />
+          <img
+            src="img/jyoken01.png"
+            alt=""
+            class="lp2-section2-jyoken1 scroll2"
+          />
+          <img
+            src="img/jyoken02.png"
+            alt=""
+            class="lp2-section2-jyoken2 scroll6"
+          />
+          <img
+            src="img/jyoken03.png"
+            alt=""
+            class="lp2-section2-jyoken3 scroll2"
+          />
+          <img
+            src="img/section2-txt3.png"
+            alt=""
+            class="lp2-section2-txt3 scroll3"
+          />
+          <img
+            src="img/section2-txt4.png"
+            alt=""
+            class="lp2-section2-txt4 scroll3"
+          />
+        </div>
+
+        <div class="lp2-section2-part2">
+          <img
+            src="img/section2-txt5.png"
+            alt=""
+            class="lp2-section2-txt5 scroll3"
+          />
+          <img
+            src="img/section2-txt6.png"
+            alt=""
+            class="lp2-section2-txt6 scroll3"
+          />
+          <img
+            src="img/section2-txt7.png"
+            alt=""
+            class="lp2-section2-txt7 scroll3"
+          />
+        </div>
+      </section>
+
+      <div
+        class="lps-section3-top-wrapper"
+        oncontextmenu="return false;"
+        onselectstart="return false;"
+        onmousedown="return false;"
+      >
+        <!-- <img src="img/section3-txt1.png" alt="" class="lp2-section3-top-txt1" /> -->
+      </div>
+
+      <section
+        class="lp2-section3"
+        oncontextmenu="return false;"
+        onselectstart="return false;"
+        onmousedown="return false;"
+      >
+        <img
+          src="img/section3-txt2.png"
+          alt=""
+          class="lp2-section3-txt2 scroll3"
+        />
+        <img
+          src="img/section3-txt3.jpg"
+          alt=""
+          class="lp2-section3-txt3 scroll1"
+        />
+        <img
+          src="img/section3-txt4.png"
+          alt=""
+          class="lp2-section3-txt4 scroll3"
+        />
+        <img
+          src="img/section3-txt5.png"
+          alt=""
+          class="lp2-section3-txt5 scroll3"
+        />
+        <img
+          src="img/section3-txt6.png"
+          alt=""
+          class="lp2-section3-txt6 scroll3"
+        />
+        <img
+          src="img/section3-txt6.5.png"
+          alt=""
+          class="lp2-section3-txt6 scroll3"
+        />
+        <img
+          src="img/section3-txt7.png"
+          alt=""
+          class="lp2-section3-txt7 scroll3"
+        />
+        <div class="screenshot-wrapper">
+          <img src="img/bank1.jpg" alt="" class="secreenshot1 scroll2" />
+          <img src="img/bank2.jpg" alt="" class="secreenshot2 scroll6" />
+          <img src="img/bank3.jpg" alt="" class="secreenshot3 scroll2" />
+        </div>
+        <img
+          src="img/section3-txt8.png"
+          alt=""
+          class="lp2-section3-txt8 scroll1"
+        />
+        <img
+          src="img/section3-txt9.png"
+          alt=""
+          class="lp2-section3-txt9 scroll1"
+        />
+      </section>
+
+      <section
+        class="lp2-section4"
+        oncontextmenu="return false;"
+        onselectstart="return false;"
+        onmousedown="return false;"
+      >
+        <img
+          src="img/section4-txt1.png"
+          alt=""
+          class="lp2-section4-txt1 section4-five-space scroll3"
+        />
+        <img
+          src="img/section4-txt3.png"
+          alt=""
+          class="lp2-section4-txt3 section4-five-space"
+        />
+        <img
+          src="img/section4-txt4.png"
+          alt=""
+          class="lp2-section4-txt4 section4-five-space scroll1"
+        />
+
+        <div class="lp2-section4-part2-wrapper">
+          <img src="img/section4-txt5.png" alt="" class="lp2-section4-txt5" />
+          <img
+            src="img/section4-txt6.png"
+            alt=""
+            class="lp2-section4-txt6 section4-five-space scroll3"
+          />
+          <img src="img/section4-lady.png" alt="" class="section4-lady" />
+          <img
+            src="img/section4-txt7.png"
+            alt=""
+            class="lp2-section4-txt7 section4-five-space scroll3"
+          />
+          <img
+            src="img/section4-txt8.png"
+            alt=""
+            class="lp2-section4-txt8 section4-five-space scroll3"
+          />
+          <img
+            src="img/section4-txt9.png"
+            alt=""
+            class="lp2-section4-txt9 section4-five-space"
+          />
+          <img
+            src="img/section4-txt10.png"
+            alt=""
+            class="lp2-section4-txt10 section4-five-space"
+          />
+          <img
+            src="img/section4-txt11.png"
+            alt=""
+            class="lp2-section4-txt11 section4-five-space scroll1"
+          />
+        </div>
+      </section>
+      <div
+        class="o-arrow-wrapper"
+        oncontextmenu="return false;"
+        onselectstart="return false;"
+        onmousedown="return false;"
+      >
+        <img src="img/o-bg-arrow.jpg.png" alt="" class="section4-btm-arrow" />
+      </div>
+
+      <section
+        class="lp2-section5"
+        oncontextmenu="return false;"
+        onselectstart="return false;"
+        onmousedown="return false;"
+      >
+        <div class="lp2-section5-top">
+          <img
+            src="img/section5-txt1.png"
+            alt=""
+            class="section5-txt1 scroll3"
+          />
+          <img src="img/section5-txt2.png" alt="" class="section5-txt2" />
+          <img
+            src="img/section5-txt3.png"
+            alt=""
+            class="section5-txt3 scroll3"
+          />
+          <img
+            src="img/section5-txt4.png"
+            alt=""
+            class="section5-txt4 scroll3"
+          />
+          <img
+            src="img/section5-txt5.png"
+            alt=""
+            class="section5-txt5 scroll3"
+          />
+        </div>
+        <div class="lp2-section5-second">
+          <img
+            src="img/section5-txt6.png"
+            alt=""
+            class="lp2-section5-txt6 lp2-section5-padding scroll1"
+          />
+          <!-- <img src="img/main-phone.png" alt="" class="main-phone" /> -->
+          <img
+            src="img/section5-txt7.png"
+            alt=""
+            class="lp2-section5-txt7 lp2-section5-padding"
+          />
+          <img src="img/section5-txt8.png" alt="" class="lp2-section5-txt8" />
+          <img
+            src="img/section5-txt9.png"
+            alt=""
+            class="lp2-section5-txt9 lp2-section5-padding scroll1"
+          />
+          <!-- <img
+            src="img/section5-txt10.png"
+            alt=""
+            class="lp2-section5-txt10 lp2-section5-padding scroll1"
+          /> -->
+          <img
+            src="img/section5-txt11.png"
+            alt=""
+            class="lp2-section5-txt11 lp2-section5-padding"
+          />
+          <img
+            src="img/section5-txt12.png.jpg"
+            alt=""
+            class="lp2-section5-txt12 lp2-section5-padding scroll1"
+          />
+          <img
+            src="img/section5-txt13.png"
+            alt=""
+            class="lp2-section5-txt13 lp2-section5-padding"
+          />
+          <img src="img/section5-txt14.png" alt="" class="lp2-section5-txt14" />
+        </div>
+      </section>
+
+      <section class="lp2-section6">
+        <img
+          src="img/section6-caution.jpg"
+          alt=""
+          class="lp2-section6-caution"
+          oncontextmenu="return false;"
+          onselectstart="return false;"
+          onmousedown="return false;"
+        />
+        <img
+          src="img/section6-arrow.png"
+          alt=""
+          class="lp2-section6-arrow"
+          oncontextmenu="return false;"
+          onselectstart="return false;"
+          onmousedown="return false;"
+        />
+
+        <div class="timer-wrapper">
+          <p class="until">募集終了まで<span id="timer"></span></p>
+        </div>
+      </section>
+      <section class="lp2-contact">
+        <h2 class="lp2-contact-ttl">AIロボアドシステム利用申込みフォーム</h2>
+        <p class="plan-wrapper">以下よりご希望のプランを選択してください。</p>
+
+        <div class="grey-line"></div>
+
+        <div class="form-select">
+          <label class="option1">
+            <!-- <input id="radio000" type="radio" name="planOption" /> -->
+            <span class="lever"
+              >先行モニタープラン：<span class="red">残りわずか△</span></span
+            >
+          </label>
+          <p class="option-ex">
+            期間：5日間<br />
+            <br />
+            費用：3,000円～<br />
+            <br />利益：6,000円～
+          </p>
+          <p class="option-btm-txt">
+            ※5日間のモニタープラン終了後に利益が入金されます
+          </p>
+
+          <div class="grey-line"></div>
+
+          <!-- <label class="option1">
+            <input id="radio000" type="radio" name="planOption" />
+            <span class="lever"
+              >スタンダードプラン(複数あり)：<span class="red"
+                >残りわずか△</span
+              ></span
+            >
+          </label>
+          <p class="option-ex">
+            期間：1か月～<br />
+            <br />
+            費用：10,000円～<br />
+            <br />利益：30,000円～
+          </p>
+          <p class="option-btm-txt">
+            ※プランによって期間と利益が異なります<br />
+            ※サポート隊があなたのベストプランを ご提案します
+          </p>
+
+          <div class="grey-line"></div> -->
+        </div>
+
+        <p class="howmanyppl">
+          現在<span class="ramdN">10</span>人の方が選択中
+        </p>
+      </section>
+
+      <section class="lp2-form"></section>
+      <div class="Form form-wrapper-lp2">
+        <div class="Form-Item">
+          <p class="Form-Item-Label">お名前<span class="red">[必須]</span></p>
+          <input
+            type="text"
+            class="Form-Item-Input item-name"
+            placeholder="姓"
+          />
+          <input
+            type="text"
+            class="Form-Item-Input item-name"
+            placeholder="名"
+          />
+        </div>
+        <div class="Form-Item">
+          <p class="Form-Item-Label">
+            メールアドレス<span class="red">[必須]</span>
+          </p>
+          <input
+            type="text"
+            class="Form-Item-Input"
+            placeholder="例）sample@example.com"
+          />
+        </div>
+        <div class="Form-Item">
+          <p class="Form-Item-Label">
+            本人確認用の携帯電話番号<span class="red">[必須]</span>
+          </p>
+          <p class="phone-under-txt">
+            ※確実に連絡が取れる電話番号をご入力ください
+          </p>
+          <input type="text" class="Form-Item-Input form-3row" placeholder="" />
+          <div class="form-3row-midline"></div>
+          <input type="text" class="Form-Item-Input form-3row" placeholder="" />
+          <div class="form-3row-midline"></div>
+          <input type="text" class="Form-Item-Input form-3row" placeholder="" />
+        </div>
+        <div class="Form-Item">
+          <p class="Form-Item-Label">
+            電話認証のご希望時間<span class="red">[必須]</span>
+          </p>
+          <div class="timeOption-wrapper">
+            <input id="radio01" type="radio" name="timeOption" />
+            <label for="radio01" class="phone-v-align">午前中</label>
+            <input id="radio02" type="radio" name="timeOption" />
+            <label for="radio02" class="phone-v-align">12時～14時</label>
+            <input id="radio04" type="radio" name="timeOption" />
+            <label for="radio03" class="phone-v-align">14時～16時</label><br />
+            <input id="radio04" type="radio" name="timeOption" />
+            <label for="radio03" class="phone-v-align">16時～18時</label>
+
+            <input id="radio04" type="radio" name="timeOption" />
+            <label for="radio04" class="phone-v-align">18時以降</label>
+          </div>
+        </div>
+
+        <p class="timeOption-btm-txt">
+          本人確認の認証の為、ご入力頂きました電話番号に
+          お電話致します。お電話をお取りいただき認証を行ってください。
+          プランの詳細も合わせてご説明致します。
+        </p>
+
+        <section class="bank-account">
+          <h3 class="bank-account-ttl">収益送金先の口座情報</h3>
+          <p class="bank-account-ttl-under">
+            ※後からのご登録も可能ですが、送金にお時間がかかる 場合がございます。
+            このフォームでご登録いただいた場合は最短で収益の
+            受け取りが可能です。
+          </p>
+
+          <div class="Form-Item-bank">
+            <p class="Form-Item-Label-bank">銀行名</p>
+            <input
+              type="text"
+              class="Form-Item-Input input-bank"
+              placeholder=""
+            />
+          </div>
+
+          <div class="Form-Item-bank">
+            <p class="Form-Item-Label-bank">支店名</p>
+            <input
+              type="text"
+              class="Form-Item-Input input-bank"
+              placeholder=""
+            />
+          </div>
+          <div class="bank-option-wrapper">
+            <p class="Form-Item-Label-bank-ttl">口座種別</p>
+            <div class="bank-option-item-wrapper">
+              <input id="bankOption01" type="radio" name="bankOption" />
+              <label for="bankOption01" class="Form-Item-Label-bank-op"
+                >普通</label
+              >
+              <input id="bankOption02" type="radio" name="bankOption" />
+              <label for="bankOption02" class="Form-Item-Label-bank-op"
+                >当座</label
+              >
+            </div>
+          </div>
+          <div class="Form-Item-bank">
+            <p class="Form-Item-Label-bank">口座番号</p>
+            <input
+              type="text"
+              class="Form-Item-Input input-bank"
+              placeholder=""
+            />
+          </div>
+
+          <div class="Form-Item-bank">
+            <p class="Form-Item-Label-bank">口座名義</p>
+            <input
+              type="text"
+              class="Form-Item-Input input-bank"
+              placeholder=""
+            />
+          </div>
+
+          <p class="bankOption-btm-txt">※ご本人様名義限定となります</p>
+        </section>
+
+        <section class="policy">
+          <h3 class="bank-account-ttl">利用規約</h3>
+          <p class="policy-txt">
+            この利用規約（以下、「本規約」といいます。）は、〇〇（以下、「当社」といいます。）が
+            ウェブサイト上で提供するサービス（以下、「本サービス」といいます。）の利用条件を定めるものです。
+            登録ユーザーの皆さま（以下、「ユーザー」といいます。）には、本規約に従って、本サービスをご利用いただきます。<br />
+            <br />
+            第1条（適用）<br />
+            本規約は、ユーザーと当社との間の本サービスの利用に関わる一切の関係に適用されるものとします。<br />
+            <br />
+            第2条（禁止事項）<br />
+            ユーザーは、本サービスの利用にあたり、以下の行為をしてはなりません。
+            （1）法令または公序良俗に違反する行為<br />
+            （2）犯罪行為に関連する行為<br />
+            （3）当社のサーバーまたはネットワークの機能を破壊したり、妨害したりする行為<br />
+            （4）当社のサービスの運営を妨害するおそれのある行為<br />
+            （5）他のユーザーに関する個人情報等を収集または蓄積する行為<br />
+            （6）他のユーザーに成りすます行為<br />
+            （7）当社のサービスに関連して、反社会的勢力に対して直接または間接に利益を供与する行為<br />
+            （8）その他、当社が不適切と判断する行為<br />
+            （9）当サイトでは無断転載を禁止しております。<br />
+            <br />
+            第3条（本サービスの提供の停止等）<br />
+            1.当社は、以下のいずれかの事由があると判断した場合、ユーザーに事前に通知することなく
+            本サービスの全部または一部の提供を停止または中断することができるものとします。<br />
+            （1）本サービスにかかるコンピュータシステムの保守点検または更新を行う場合<br />
+            （2）地震、落雷、火災、停電または天災などの不可抗力により、本サービスの提供が困難となった場合<br />
+            （3）コンピュータまたは通信回線等が事故により停止した場合<br />
+            （4）その他、当社が本サービスの提供が困難と判断した場合<br /><br />
+            2.当社は、本サービスの提供の停止または中断により、ユーザーまたは第三者が被ったいかなる不利益または損害について、
+            理由を問わず一切の責任を負わないものとします。 <br /><br />
+            第4条（免責事項）<br />
+            1.当社の債務不履行責任は、当社の故意または重過失によらない場合には免責されるものとします。<br />
+            2.当社は、何らかの理由によって責任を負う場合にも、通常生じうる損害の範囲内かつ有料サービスにおいては
+            　代金額（継続的サービスの場合には1か月分相当額）の範囲内においてのみ賠償の責任を負うものとします。<br />
+            3.当社は、本サービスに関して、ユーザーと他のユーザーまたは第三者との間において生じた取引、連絡または紛争等について一切責任を負いません。<br /><br />
+            第5条（サービス内容の変更等）<br />
+            当社は、ユーザーに通知することなく、本サービスの内容を変更しまたは本サービスの提供を中止することができるものとし、これによってユーザーに生じた損害について一切の責任を負いません。<br /><br />
+            第6条（利用規約の変更）<br />
+            当社は、必要と判断した場合には、ユーザーに通知することなくいつでも本規約を変更することができるものとします。<br /><br />
+            第7条（通知または連絡）<br />
+            ユーザーと当社との間の通知または連絡は、当社の定める方法によって行うものとします。<br /><br />
+            第8条（権利義務の譲渡の禁止）<br />
+            ユーザーは、当社の書面による事前の承諾なく、利用契約上の地位または本規約に基づく権利もしくは義務を第三者に譲渡し、または担保に供することはできません。<br /><br />
+            第9条（準拠法・裁判管轄）<br />
+            1.本規約の解釈にあたっては、日本法を準拠法とします。<br />
+            2.本サービスに関して紛争が生じた場合には、当社の本店所在地を管轄する裁判所を専属的合意管轄とします。<br /><br />
+            以上
+          </p>
+
+          <div class="agree-wrapper">
+            <label class="agree-check">
+              <input type="checkbox" />
+              <span class="lever">利用規約に同意する</span>
+              <img
+                src="img/agree-under-deco.jpg"
+                alt=""
+                class="agree-underbar marginfive"
+                oncontextmenu="return false;"
+                onselectstart="return false;"
+                onmousedown="return false;"
+              />
+            </label>
+          </div>
+
+          <img
+            src="img/agree-under-txt01.png"
+            alt=""
+            class="agree-txt01 marginfive"
+            oncontextmenu="return false;"
+            onselectstart="return false;"
+            onmousedown="return false;"
+          />
+
+          <div class="cv">
+            <div class="cv_btn">
+              <a class="everline_link" href="#" alt=""
+                ><img src="img/send-btn.png" alt=""
+              /></a>
+            </div>
+          </div>
+          <!-- 
+          <div class="cv">
+            <div class="cv_btn">
+              <button class="everline_link" id="js-show-popup">
+                <img src="img/send-btn.png" alt="" />
+              </button>
+            </div>
+          </div>
+
+          <div class="popup" id="js-popup">
+            <div class="popup-inner">
+              <div class="close-btn" id="js-close-btn">
+                <i class="fas fa-times"></i>
+              </div>
+              <p class="popup-ttl">30歳未満の方はご参加できません。</p>
+              <p class="popup-q">30歳以上ですか？</p>
+              <div class="popup-answers">
+                <a href="#" class="hai"
+                  ><img src="img/hai.png" alt="" class="hai-img"
+                /></a>
+                <a href="#" class="iie"
+                  ><img src="img/iie.png" alt="" class="iie-img"
+                /></a>
+              </div>
+            </div>
+            <div class="black-background" id="js-black-bg"></div>
+          </div> -->
+
+          <img
+            src="img/agree-under-txt02.png"
+            alt=""
+            class="agree-txt02 marginfive"
+            oncontextmenu="return false;"
+            onselectstart="return false;"
+            onmousedown="return false;"
+          />
+
+          <div class="timer-wrapper">
+            <p class="until">募集終了まで<span id="timer2"></span></p>
+          </div>
+
+          <img
+            src="img/agree-under-txt03.png"
+            oncontextmenu="return false;"
+            onselectstart="return false;"
+            onmousedown="return false;"
+            alt=""
+            class="agree-txt03 marginfive"
+          />
+          <p class="btm-email">sample@co.jp</p>
+        </section>
+      </div>
+    </main>
+    <footer></footer>
+    <script src="animate.js"></script>
+    <script src="countdown.js"></script>
+  </body>
+</html>
